@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "landing-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/landingPage/LandingPageWebPart.js",
+          "manifest": "./src/webparts/landingPage/LandingPageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LandingPageWebPartStrings": "lib/webparts/landingPage/loc/{locale}.js"
+  }
+}
